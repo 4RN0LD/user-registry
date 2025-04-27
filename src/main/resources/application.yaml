@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: bci-challenge
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driverClassName: org.h2.Driver
+    username: sa
+    password:
+    hikari:
+      maximum-pool-size: 5
+      minimum-idle: 2
+      idle-timeout: 60000
+      max-lifetime: 1800000
+      connection-timeout: 5000
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+security:
+  password:
+    regex: '^.{8,}$'
+    message: 'La contrasena debe tener al menos 8 caracteres'
