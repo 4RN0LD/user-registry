@@ -1,4 +1,4 @@
-package com.bci.bcichallenge.dto.exception;
+package com.bci.bcichallenge.exceptions;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

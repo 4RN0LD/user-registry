@@ -1,6 +1,6 @@
 package com.bci.bcichallenge.service;
 
-import com.bci.bcichallenge.Exceptions.EmailAlreadyExistsException;
+import com.bci.bcichallenge.exceptions.EmailAlreadyExistsException;
 import com.bci.bcichallenge.dto.UserRequest;
 import com.bci.bcichallenge.dto.UserResponse;
 import com.bci.bcichallenge.mapper.UserMapper;

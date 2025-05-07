@@ -18,6 +18,10 @@ Este proyecto es una API RESTful desarrollada con Spring Boot que permite crear 
 - JDK 17
 - Algun gestor de base de datos. Opcional, solo si se quiere ver la BD (ejemplo: https://dbeaver.io/download/)
 
+## Diagrama de solucion
+
+![Diagrama](src/main/resources/Diagrama.svg)
+
 ## Instalación
 
 1. Clona este repositorio:
@@ -43,6 +47,10 @@ Este proyecto es una API RESTful desarrollada con Spring Boot que permite crear 
     ```bash
     ./mvnw spring-boot:run
     ```
+## Configuracion
+
+1. Configuracion formato en RegEx para aplicar a la contrasena:
+   - para configurar el formato de la expresion regular debe hacerlo desde el archivo application.yaml en el nodo **security.password.regex** actualmente configurado para un minimo de 8 caracteres
 
 ## Endpoints
 

@@ -1,7 +1,7 @@
 package com.bci.bcichallenge.controller;
 
-import com.bci.bcichallenge.Exceptions.EmailAlreadyExistsException;
-import com.bci.bcichallenge.dto.exception.GlobalExceptionResponse;
+import com.bci.bcichallenge.exceptions.EmailAlreadyExistsException;
+import com.bci.bcichallenge.exceptions.GlobalExceptionResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;

@@ -19,5 +19,5 @@ spring:
     show-sql: true
 security:
   password:
-    regex: '^.{8,}$'
+    regex: '^.{8,}$' #formato en RegEx para aplicar a la contrasena
     message: 'La contrasena debe tener al menos 8 caracteres'
